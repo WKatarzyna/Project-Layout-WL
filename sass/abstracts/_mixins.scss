@@ -1,0 +1,29 @@
+
+@mixin navigation_button {
+	padding:1rem;
+	border: none;
+	border-radius: 20%;
+	background: linear-gradient(to right bottom, rgba($color-primary-dark, 0.8),rgba($color-primary-light, 0.8) );
+	color:$color-white;
+	font-weight: 600;
+	cursor: pointer;	
+}
+
+@mixin clearfix {
+	&::after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}
+
+@mixin colored-headers {
+    background-image: linear-gradient(to right ,rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8));
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: .2rem;	
+	-webkit-background-clip: text;
+	color: transparent;
+	text-shadow: .5rem 1rem 2rem $color-grey-dark;
+}
+
