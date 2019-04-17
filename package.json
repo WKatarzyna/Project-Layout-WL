@@ -1,8 +1,7 @@
 {
   "name": "owl",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "layout built using sass",
   "dependencies": {
     "jquery": "^3.3.1",
     "live": "^0.1.25-beta.0",
