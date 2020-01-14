@@ -10,7 +10,7 @@
         width:40%;
         box-shadow: 0rem 1.5rem 4rem rgba($color-black, .4);
         border-radius: 2px;
-        outline-offset: 1.5rem;
+        outline-offset: 0.5rem;
         backface-visibility: hidden;
 
         &--p1 {
@@ -28,7 +28,7 @@
 
         &:hover {
             transform: scale(1.05) translateY(-1rem);
-            outline: 1.5rem solid $color-primary;
+            outline: 1rem solid $color-border;
             box-shadow: 0rem 1.5rem 5rem rgba($color-black, .95);
             transition: 3s;
             z-index:3;

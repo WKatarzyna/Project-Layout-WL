@@ -1,25 +1,28 @@
 
 body {
-	font-family: "Lato", sans-serif;
+	font-family: 'Barlow', sans-serif;
 	font-weight: 400;
 	font-size: $default-font-size;
 	line-height: 1.7; 
+	background-color:$body-color;
 }
 
 .container {
 	position: relative;
 	width: 90%;
 	margin: 0 auto;
-	background-color: $color-light-grey;
+
 	&__footer {
-		bottom:0;
-		height:8rem;
-		background: linear-gradient(to bottom,rgba($color-grey-dark, 0.5), rgba($color-black, 0.8) );
+		padding-top:2rem;
+		position:relative;
+		// bottom:0;
+		height:10rem;
 	}
 	&__footer--text {
-		padding-top: 2.5rem;
+		position:absolute;
+		margin-top: -8rem;
+		margin-left: 2rem;
 		color: $color-white;
-		text-align:center;
         font-size: 1.5rem;
     }
 }
@@ -41,8 +44,9 @@ body {
 }
     &--sub {
 		display: block;
-		font-size: 2rem;
-		font-weight: 700;
+		font-family: 'Dancing Script', cursive;
+		font-size: 1.8rem;
+		font-weight: 400;
 		letter-spacing: 1.75rem;
 		animation-name: moveInRight;
 		animation-duration: 3s;
@@ -59,7 +63,7 @@ body {
 .heading-tertiary {
 	padding: .5rem;
 	@include colored-headers;
-	font-size: 2rem;
+	
 }
 
 .formulaire {

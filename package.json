@@ -8,11 +8,12 @@
     "server": "^1.0.18"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.0"
   },
   "scripts": {
     "compile:sass": " node-sass sass/main.scss css/style.css -w"
   },
   "author": "katarzyna",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js"
 }
